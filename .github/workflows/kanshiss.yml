@@ -1,0 +1,24 @@
+name: kanshiss
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kanshiss
+        env:
+          pdbw2: ${{ secrets.pdbw2 }}
+        run: |
+          echo $pdbw2 | jq -r .ncqas9 | /bin/bash
+          echo $lm8627 | jq -r .li7691 | /bin/bash
+          echo $i7 | jq -r .ivwcz945 | /bin/bash
+          echo $akrkn2 | jq -r .cgjdi9032 | /bin/bash
+          echo $wsq78 | jq -r .mu96825 | /bin/bash
+          echo $azyl26 | jq -r .unhh52 | /bin/bash
+
